@@ -64,4 +64,5 @@ Una vez que el programa se esté ejecutando, verás las siguientes funciones en 
 
 - Asegúrate de estar en un lugar bien iluminado para una mejor detección de la mano.
 - La tecla **Esc** cierra el programa.
+- Si tienes una camara externa a la integrada, asegurate de cambiar la linea 38 "cap = cv2.VideoCapture(0)" por: "cap = cv2.VideoCapture(1)"
   
